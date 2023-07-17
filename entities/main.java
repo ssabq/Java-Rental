@@ -56,12 +56,12 @@ public class main {
                     System.out.println(item);
                 }
             } else if (input.equals("4")) {
-                System.out.print("Enter the Property name you want to return: ");
+                System.out.print("Enter the Property name you want to cancel: ");
                 String itemToReturn = scanner.nextLine();
                 if (rentedItems.contains(itemToReturn)) {
                     rentedItems.remove(itemToReturn);
                     availableItems.add(itemToReturn);
-                    System.out.println(itemToReturn + " has been returned successfully.");
+                    System.out.println(itemToReturn + " has been cancelled successfully.");
                 } else {
                     System.out.println(itemToReturn + " is not rented by you.");
                 }

@@ -3,7 +3,7 @@ import java.util.Scanner;
 import lombok.Data;
 
 @Data
-public class Login {
+public class CustomerLogin {
 
     public static void main(String[] args) {
         String username = "hamada";

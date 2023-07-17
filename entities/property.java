@@ -9,5 +9,4 @@ public class property {
 private String property;
 private String[] propertyList;
 
-
 }
