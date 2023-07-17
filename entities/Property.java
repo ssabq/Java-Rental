@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 
-public class property {
+public class Property {
 private String property;
 private String[] propertyList;
 

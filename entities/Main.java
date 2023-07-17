@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
         List<String> availableItems = new ArrayList<>();

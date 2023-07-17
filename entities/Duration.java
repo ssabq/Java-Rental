@@ -20,7 +20,7 @@ public class Duration {
         String endDateString = scanner.nextLine();
         LocalDate endDate = LocalDate.parse(endDateString);
 
-        // Calculate the duration in days
+
         long durationInDays = ChronoUnit.DAYS.between(startDate, endDate);
 
         System.out.println("The rental duration is " + durationInDays + " days.");

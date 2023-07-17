@@ -1,6 +1,6 @@
 package entities;
 import java.util.Scanner;
-public class owner {
+public class OwnerLogin {
     public static void main(String[] args) {
         String adminUsername = "hamada";
         String adminPassword = "hamada";
